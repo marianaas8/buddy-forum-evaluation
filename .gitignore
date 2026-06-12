@@ -1,0 +1,19 @@
+# Downloaded model files and renders
+data/
+*.glb
+*-blender.glb
+*_render.png
+*_anim_metrics.json
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.env
+
+# MLflow local tracking
+mlruns/
+
+# OS files
+.DS_Store
+Thumbs.db
