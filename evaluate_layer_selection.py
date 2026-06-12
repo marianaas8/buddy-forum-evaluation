@@ -82,7 +82,6 @@ MLFLOW_TRACKING_URI = "http://YOUR_MLFLOW_SERVER:5000"
 EXPERIMENT_NAME = "habit_layer_selection_evaluation"
 RUN_PARAMS = {
     "model_provider": "BrightFactory Cortex",
-    "model_version": "gpt-5.2",
     "task_type": "search_prop_selection",
 }
 
