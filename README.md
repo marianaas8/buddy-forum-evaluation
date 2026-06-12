@@ -3,6 +3,23 @@
 Evaluation pipeline for the three research phases of the dissertation
 *"Generative AI for 3D Digital Assistants"* (Mariana Serrão, FEUP, 2026).
 
+## Context
+
+**Buddy Forum** is an internal productivity platform developed at BrightFactory that
+uses a 3D animated avatar — *Buddy* — to help teams track and celebrate daily habits.
+Users create habits through a conversational interface; the system automatically
+generates a themed 3D prop (via Tripo AI), animates the avatar, and coordinates a
+layer of contextual props around it using an AI selection model (BrightFactory Cortex).
+
+This repository contains the quantitative evaluation pipeline used to assess the
+quality of each AI-generated component across three research phases:
+
+| Phase | Research Focus | Key Technology |
+|---|---|---|
+| 1 | 3D model quality | Tripo AI text-to-model |
+| 2 | Animation quality | Tripo AI rig + retarget pipeline |
+| 3 | Prop layer selection | BrightFactory Cortex (LLM-based) |
+
 Each phase has a dedicated evaluation script. All scripts pull live data from the
 Buddy Forum server via `sync_data.py` and optionally log metrics to MLflow.
 
